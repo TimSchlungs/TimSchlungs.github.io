@@ -1,0 +1,21 @@
+.side-info-module {
+  background-color: color(grey, 900);
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .job-naming {
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .job-naming-text {
+    color: white;
+    text-align: center;
+  }
+}

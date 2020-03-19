@@ -37,13 +37,20 @@
 @import '05_layout/site';
 
 // import atoms
-@import '06_atoms/icons';
+@import '06_atoms/icon';
+
+// import modules
+@import '08_modules/main-stage';
+@import '08_modules/personal-stage';
+@import '08_modules/side-info-module';
 
 // import helpers
 @import '09_helpers/display';
 @import '09_helpers/flow';
+@import '09_helpers/font';
 @import '09_helpers/hide';
 @import '09_helpers/position';
 @import '09_helpers/spacing';
 @import '09_helpers/text';
+@import '09_helpers/valign';
 @import '09_helpers/visibility';

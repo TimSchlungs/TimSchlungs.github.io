@@ -1,0 +1,23 @@
+.main-stage {
+  background-color: color(red, 500);
+
+  a {
+    text-decoration: none;
+  }
+
+  .logo {
+    color: white;
+    font-size: font-size(s);
+  }
+
+  .contact {
+    color: white;
+  }
+
+  .banner{
+    color: white;
+    text-align: center;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 100px;
+  }
+}

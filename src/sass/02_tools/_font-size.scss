@@ -7,7 +7,6 @@
     font-size: nth(map-get(map-get($font-sizes, $viewport), $size), 1);
     line-height: nth(map-get(map-get($font-sizes, $viewport), $size), 2) / nth(map-get(map-get($font-sizes, $viewport), $size), 1);
 
-
     // Go trough all font-sizes
     @for $i from 1 through length($font-sizes) {
       $view: nth($font-sizes, $i);
